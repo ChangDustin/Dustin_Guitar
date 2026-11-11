@@ -1,0 +1,18 @@
+# 每次 push（包含站長在網站上按「發布到網站」）都跑一次內容檢查，
+# 規則跟 CLAUDE.md 第 3 節、npm run check 完全相同；不用安裝任何套件。
+name: 內容檢查
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run check

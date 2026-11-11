@@ -1,0 +1,79 @@
+/* 設計變數：全站唯一可以寫色碼的地方（CLAUDE.md 4.3）
+   色票取自一把木吉他的材料：雲杉面板、骨質琴枕、玫瑰木指板、琴漆、鮑魚貝鑲嵌、鎳銀琴格 */
+:root {
+  --spruce: #F7F0E1;        /* 雲杉面板：頁面底色 */
+  --spruce-2: #EEE3CB;      /* 底色深一階：區塊交替、輸入框 */
+  --bone: #FCFAF4;          /* 骨質琴枕：卡片 */
+  --rosewood: #2B1A12;      /* 玫瑰木指板：深色區塊 */
+  --rosewood-2: #45291B;
+  --ink: #2A2019;           /* 主要文字 */
+  --ink-2: #5C4E44;         /* 次要文字 */
+  --ink-3: #8A7B6E;         /* 註解、說明 */
+  --line: #E4D7BF;          /* 細線、卡片邊框 */
+  --line-2: #D2C09F;
+  --amber: #B0692B;         /* 琴漆琥珀：主色、站長的資料 */
+  --amber-deep: #8A4E1D;
+  --amber-soft: #F4E3CC;
+  --abalone: #2E7D76;       /* 鮑魚貝：學員自己的資料、互動狀態 */
+  --abalone-deep: #22605A;
+  --abalone-soft: #DCEEE9;
+  --nickel: #A3A9AB;        /* 鎳銀：琴格、指板線 */
+  --nickel-light: #E9ECEC;
+  --danger: #B3402F;
+  --danger-soft: #F6DDD6;
+  --ok: #3F7A48;
+  --on-dark: #F3E7D3;       /* 深色區塊上的文字 */
+  --on-dark-2: #C9B59A;
+  --heat-0: #EDE3CF;        /* 練習熱度圖：沒練 → 練很久 */
+  --heat-1: #D9E9E2;
+  --heat-2: #9CCBBF;
+  --heat-3: #4E9C90;
+  --heat-4: #22605A;
+
+  --shade-strong: rgba(0, 0, 0, 0.55);  /* 指板與音孔的內陰影 */
+  --shade: rgba(0, 0, 0, 0.35);
+  --groove: rgba(0, 0, 0, 0.18);        /* 纏繞弦的紋路 */
+  --gloss: rgba(255, 255, 255, 0.025);  /* 指板木紋 */
+  --gloss-2: rgba(255, 255, 255, 0.14);
+  --hairline: rgba(43, 26, 18, 0.06);
+
+  --font-hand: 'LXGW WenKai TC', 'Noto Serif TC', 'Songti TC', serif;
+  --font-body: 'Noto Sans TC', system-ui, -apple-system, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  --font-num: 'Barlow Condensed', 'Noto Sans TC', sans-serif;
+
+  /* 字級：大三度比例 1.25 */
+  --step--1: 0.875rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.5625rem;
+  --step-3: 1.953rem;
+  --step-4: 2.441rem;
+  --step-5: 3.052rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+
+  --radius-s: 6px;
+  --radius: 10px;
+  --radius-l: 18px;
+  --shadow: 0 1px 0 rgba(43, 26, 18, 0.05), 0 10px 26px -16px rgba(43, 26, 18, 0.45);
+  --shadow-lift: 0 2px 0 rgba(43, 26, 18, 0.05), 0 18px 38px -18px rgba(43, 26, 18, 0.55);
+  --scrim: rgba(28, 17, 11, 0.55);
+  --header-h: 64px;
+  --wrap: 1180px;
+  color-scheme: light;
+}
+
+/* 沒有封面的歌：用曲名算出色相（--h 由 JS 給），自動產生帶音孔圈的色塊。
+   會動態算顏色，所以和色票一起放在這裡。 */
+.cover-gen {
+  background:
+    radial-gradient(circle at 50% 50%, transparent 30%, var(--gloss-2) 31%, transparent 34%),
+    linear-gradient(140deg, hsl(var(--h, 30) 42% 52%), hsl(calc(var(--h, 30) + 30) 46% 30%));
+}

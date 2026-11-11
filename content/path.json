@@ -1,0 +1,44 @@
+{
+  "stages": [
+    {
+      "id": "chords-and-rhythm",
+      "title": "和弦與節奏",
+      "goal": "看得懂 TAB 譜、會用 Capo，換和弦不停頓，右手能穩定刷出八分音符。",
+      "techniques": ["strumming", "capo", "barre-chord"],
+      "songs": ["first-love-easy", "always-with-me-minamizawa", "payphone"],
+      "articles": ["how-to-read-tab"]
+    },
+    {
+      "id": "fingerpicking-basics",
+      "title": "分解和弦與交替低音",
+      "goal": "右手拇指負責低音、其他手指負責高音，兩邊分工不打架。",
+      "techniques": ["fingerpicking", "alternating-bass", "melody-voicing"],
+      "songs": ["tonghua", "yujian", "chixin-juedui", "gudan-beibanqiu", "chiisana-koi-no-uta"],
+      "articles": ["chord-families"]
+    },
+    {
+      "id": "left-hand-legato",
+      "title": "左手連音：搥、勾、滑",
+      "goal": "不靠右手也能讓音連起來，旋律更像在唱歌。",
+      "techniques": ["hammer-on", "pull-off", "slide"],
+      "songs": ["summer", "merry-go-round-of-life", "umi-no-mieru-machi", "blue", "my-heart-will-go-on", "first-love"],
+      "articles": []
+    },
+    {
+      "id": "right-hand-color",
+      "title": "右手的質感：悶音、打板與泛音",
+      "goal": "同一個音彈出不同顏色：悶住的、打擊的、像鈴聲一樣的。",
+      "techniques": ["palm-mute", "percussive", "harmonics"],
+      "songs": ["time-travel", "todokanai-koi", "lost-game", "something-just-like-this", "inuyasha-affections"],
+      "articles": []
+    },
+    {
+      "id": "full-arrangements",
+      "title": "特殊調弦與完整編曲",
+      "goal": "能自己調好特殊調弦，挑戰十頁以上的完整指彈編曲。",
+      "techniques": ["alternate-tuning"],
+      "songs": ["like-a-star", "river-flows-in-you", "grand-escape", "always-with-me-sungha-jung", "daijoubu", "violet-evergarden-medley"],
+      "articles": ["c-major-scale-patterns"]
+    }
+  ]
+}

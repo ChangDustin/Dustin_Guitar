@@ -1,0 +1,26 @@
+{
+  "title": "小齊吉他",
+  "titleEn": "Dustin Guitar",
+  "tagline": "把練過的每一首指彈，整理成看得懂、學得會的樣子",
+  "profile": {
+    "name": "小齊",
+    "photo": "",
+    "bio": "",
+    "location": "",
+    "startedYear": null
+  },
+  "timeline": [],
+  "gear": [],
+  "socials": [],
+  "firebase": null,
+  "github": {
+    "owner": "ChangDustin",
+    "repo": "Dustin_Guitar",
+    "branch": "main"
+  },
+  "admin": {
+    "salt": "/wjZo5SL1o9DxvxMqA1ueA==",
+    "hash": "MkQnK0uJOQtneGNBhVEEG1CI6qOLqLlzx7lIeYsBOPY=",
+    "iter": 150000
+  }
+}

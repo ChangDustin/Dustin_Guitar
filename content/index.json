@@ -1,0 +1,336 @@
+{
+  "note": "自動產生的目錄，請勿手改；改完 Markdown 後執行 npm run index",
+  "techniques": [
+    {
+      "slug": "hammer-on",
+      "title": "搥弦",
+      "summary": "左手手指像小鐵鎚一樣敲在琴格上發出聲音，右手不用再撥一次。",
+      "tags": [
+        "連音",
+        "左手"
+      ],
+      "related": [
+        "pull-off",
+        "slide"
+      ],
+      "cover": "",
+      "path": "content/techniques/hammer-on.md",
+      "minutes": 1,
+      "symbol": "H",
+      "group": "左手",
+      "level": 2,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "pull-off",
+      "title": "勾弦",
+      "summary": "左手按著的手指往下「勾」一下離開琴弦，讓較低的音接著響起來。",
+      "tags": [
+        "連音",
+        "左手"
+      ],
+      "related": [
+        "hammer-on",
+        "slide"
+      ],
+      "cover": "",
+      "path": "content/techniques/pull-off.md",
+      "minutes": 1,
+      "symbol": "P",
+      "group": "左手",
+      "level": 2,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "slide",
+      "title": "滑音",
+      "summary": "左手壓著弦沿著琴頸滑到另一格，讓音高連續地變過去。",
+      "tags": [
+        "連音",
+        "左手",
+        "換把位"
+      ],
+      "related": [
+        "hammer-on",
+        "pull-off"
+      ],
+      "cover": "",
+      "path": "content/techniques/slide.md",
+      "minutes": 1,
+      "symbol": "sl.",
+      "group": "左手",
+      "level": 2,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "fingerpicking",
+      "title": "分解和弦",
+      "summary": "右手手指分工，把和弦的音一個一個依序撥出來，是指彈最基本的動作。",
+      "tags": [
+        "右手",
+        "指法",
+        "入門"
+      ],
+      "related": [
+        "alternating-bass",
+        "melody-voicing"
+      ],
+      "cover": "",
+      "path": "content/techniques/fingerpicking.md",
+      "minutes": 1,
+      "symbol": "p i m a",
+      "group": "右手",
+      "level": 1,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "strumming",
+      "title": "刷弦節奏",
+      "summary": "右手像鐘擺一樣上下擺動，刷到弦的是聲音、沒刷到的「空刷」也算拍子。",
+      "tags": [
+        "右手",
+        "節奏",
+        "入門"
+      ],
+      "related": [
+        "percussive",
+        "palm-mute"
+      ],
+      "cover": "",
+      "path": "content/techniques/strumming.md",
+      "minutes": 1,
+      "symbol": "⊓ V",
+      "group": "右手",
+      "level": 1,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "palm-mute",
+      "title": "悶音",
+      "summary": "右手掌根輕靠在琴橋附近的弦上，讓音變短、變悶，彈出有顆粒感的節奏。",
+      "tags": [
+        "右手",
+        "音色",
+        "節奏"
+      ],
+      "related": [
+        "percussive",
+        "alternating-bass"
+      ],
+      "cover": "",
+      "path": "content/techniques/palm-mute.md",
+      "minutes": 1,
+      "symbol": "P.M.",
+      "group": "右手",
+      "level": 2,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "alternating-bass",
+      "title": "交替低音",
+      "summary": "右手拇指在兩條低音弦之間穩定地來回彈，像一顆內建的貝斯和鼓。",
+      "tags": [
+        "右手",
+        "拇指",
+        "指彈"
+      ],
+      "related": [
+        "fingerpicking",
+        "palm-mute"
+      ],
+      "cover": "",
+      "path": "content/techniques/alternating-bass.md",
+      "minutes": 1,
+      "symbol": "T",
+      "group": "右手",
+      "level": 3,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "harmonics",
+      "title": "泛音",
+      "summary": "左手只輕碰琴格正上方、不壓下去，彈出像鈴聲一樣清亮的音。",
+      "tags": [
+        "音色",
+        "右手",
+        "進階"
+      ],
+      "related": [
+        "alternate-tuning",
+        "percussive"
+      ],
+      "cover": "",
+      "path": "content/techniques/harmonics.md",
+      "minutes": 1,
+      "symbol": "<12>",
+      "group": "右手",
+      "level": 3,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "melody-voicing",
+      "title": "讓旋律唱出來",
+      "summary": "同時彈旋律與伴奏時，刻意讓旋律音比較大聲，聽的人才分得出哪一條是歌。",
+      "tags": [
+        "右手",
+        "音量控制",
+        "指彈"
+      ],
+      "related": [
+        "fingerpicking",
+        "alternating-bass"
+      ],
+      "cover": "",
+      "path": "content/techniques/melody-voicing.md",
+      "minutes": 1,
+      "symbol": "",
+      "group": "右手",
+      "level": 3,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "percussive",
+      "title": "打板與切音",
+      "summary": "用手拍弦或敲琴身做出鼓聲，或用左手輕放在弦上刷出「恰」的切音。",
+      "tags": [
+        "右手",
+        "打擊",
+        "節奏"
+      ],
+      "related": [
+        "strumming",
+        "palm-mute"
+      ],
+      "cover": "",
+      "path": "content/techniques/percussive.md",
+      "minutes": 1,
+      "symbol": "X",
+      "group": "右手",
+      "level": 3,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "barre-chord",
+      "title": "封閉和弦",
+      "summary": "用食指一次壓住好幾條弦當成「活動的琴枕」，同一個指型移到哪一格就變成哪個和弦。",
+      "tags": [
+        "和弦",
+        "左手",
+        "封閉"
+      ],
+      "related": [
+        "capo",
+        "fingerpicking"
+      ],
+      "cover": "",
+      "path": "content/techniques/barre-chord.md",
+      "minutes": 1,
+      "symbol": "封閉",
+      "group": "和弦",
+      "level": 3,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "capo",
+      "title": "移調夾 Capo",
+      "summary": "把 Capo 夾在某一格，整把吉他就升高了幾個半音，指型不變、調性變了。",
+      "tags": [
+        "移調",
+        "入門",
+        "器材"
+      ],
+      "related": [
+        "alternate-tuning",
+        "barre-chord"
+      ],
+      "cover": "",
+      "path": "content/techniques/capo.md",
+      "minutes": 1,
+      "symbol": "Capo",
+      "group": "調弦與移調",
+      "level": 1,
+      "updated": "2026-11-11"
+    },
+    {
+      "slug": "alternate-tuning",
+      "title": "特殊調弦",
+      "summary": "把一些弦調到不同的音，讓空弦組成新的和弦，彈出標準調弦做不到的共鳴。",
+      "tags": [
+        "調弦",
+        "進階",
+        "指彈"
+      ],
+      "related": [
+        "capo",
+        "harmonics"
+      ],
+      "cover": "",
+      "path": "content/techniques/alternate-tuning.md",
+      "minutes": 1,
+      "symbol": "①=D",
+      "group": "調弦與移調",
+      "level": 4,
+      "updated": "2026-11-11"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "c-major-scale-patterns",
+      "title": "C 大調音階的五種把位",
+      "summary": "把整個琴頸切成五塊，每一塊都有一個音階指型；先認八度，再把五塊接起來。",
+      "tags": [
+        "樂理",
+        "音階",
+        "上課筆記"
+      ],
+      "related": [
+        "chord-families",
+        "barre-chord"
+      ],
+      "cover": "",
+      "path": "content/articles/c-major-scale-patterns.md",
+      "minutes": 1,
+      "category": "樂理筆記",
+      "date": "2026-11-11"
+    },
+    {
+      "slug": "chord-families",
+      "title": "和弦家族：從三和弦到七和弦",
+      "summary": "整理 Yamaha 課學到的和弦組成，以及老師教的五個「讓進行更好聽」的小技巧。",
+      "tags": [
+        "樂理",
+        "和弦",
+        "上課筆記"
+      ],
+      "related": [
+        "barre-chord",
+        "melody-voicing"
+      ],
+      "cover": "",
+      "path": "content/articles/chord-families.md",
+      "minutes": 2,
+      "category": "樂理筆記",
+      "date": "2026-11-11"
+    },
+    {
+      "slug": "how-to-read-tab",
+      "title": "第一次看 TAB 譜就上手",
+      "summary": "六條線、一堆數字和英文字母是什麼意思？整理我練這 25 首歌時最常遇到的記號。",
+      "tags": [
+        "TAB",
+        "新手",
+        "讀譜"
+      ],
+      "related": [
+        "capo",
+        "alternate-tuning",
+        "hammer-on"
+      ],
+      "cover": "",
+      "path": "content/articles/how-to-read-tab.md",
+      "minutes": 2,
+      "category": "新手上路",
+      "date": "2026-11-11"
+    }
+  ]
+}

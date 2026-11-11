@@ -1,0 +1,8 @@
+{
+  "id": "{{id}}",
+  "title": "{{title}}",
+  "description": "（一兩句說明這個歌單收了哪些歌、適合誰）",
+  "cover": "",
+  "songIds": [],
+  "featured": false
+}

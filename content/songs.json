@@ -1,0 +1,1260 @@
+{
+  "songs": [
+    {
+      "id": "summer",
+      "title": "Summer",
+      "titleZh": "菊次郎的夏天",
+      "artist": "久石讓",
+      "arranger": "Shin Izumi",
+      "difficulty": 3,
+      "status": "已學會",
+      "tuning": "standard",
+      "capo": 2,
+      "bpm": 92,
+      "key": "",
+      "tags": [
+        "電影配樂",
+        "久石讓",
+        "日本"
+      ],
+      "techniques": [
+        "palm-mute",
+        "hammer-on",
+        "pull-off",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 開頭 1–4 小節整段標 P.M.：右手掌根輕靠琴橋，分解和弦要悶而不糊，見 [[technique:palm-mute]]。\n- 中段旋律大量 H、P，連音要和拍點對齊、不要搶拍：[[technique:hammer-on]]、[[technique:pull-off]]。\n- Capo 夾第 2 格、♩ = 92；先用 ♩ = 70 練到每個音都乾淨再加速，見 [[technique:capo]]。",
+      "cover": "media/covers/summer.jpg",
+      "pdf": {
+        "path": "media/tabs/summer.pdf",
+        "pages": 2,
+        "totalPages": 2,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：Shin Izumi",
+          "url": "https://www.youtube.com/watch?v=UvwfWxI97ao"
+        }
+      ],
+      "source": {
+        "name": "Shin Izumi",
+        "url": ""
+      },
+      "notes": "電影《菊次郎的夏天》主題曲，Shin Izumi 的編曲。\n・標準調弦、Capo 2，♩ = 92\n・開頭整段 P.M.（悶音）分解和弦，右手掌根輕靠琴橋\n・中段的搥音（H）與勾音（P）要乾淨，不要搶拍",
+      "createdAt": "2026-10-19T08:10:00.000Z",
+      "updatedAt": "2026-10-19T16:27:59.804Z"
+    },
+    {
+      "id": "like-a-star",
+      "title": "Like A Star",
+      "titleZh": "",
+      "artist": "Youngso Kim 金永所",
+      "arranger": "林慶義 Chi-Yi Lin（探吉日）",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "cgdgad",
+      "capo": 2,
+      "bpm": 60,
+      "key": "",
+      "tags": [
+        "韓國指彈",
+        "探吉日",
+        "特殊調弦"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "harmonics",
+        "hammer-on",
+        "pull-off",
+        "slide",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 調弦是 C G D G A D：6 弦降到 C、5 弦降到 G、2 弦降到 A、1 弦降到 D，見 [[technique:alternate-tuning]]。\n- 全曲的泛音記號超過一百個，大部分是 12 格的自然泛音（譜上寫 <12>），另有十幾個人工泛音（AH）：[[technique:harmonics]]。\n- 前奏是自由拍（Free time），♩ = 60 只是參考；譜上有標運指的段落是老師覺得容易卡住的地方，先慢練。\n- 旋律靠搥、勾、滑串起來：[[technique:hammer-on]]、[[technique:pull-off]]、[[technique:slide]]。",
+      "cover": "media/covers/like-a-star.jpg",
+      "pdf": {
+        "path": "media/tabs/like-a-star.pdf",
+        "pages": 10,
+        "totalPages": 10,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "探吉日 TAB 示範：林慶義",
+          "url": "https://www.youtube.com/watch?v=hvikpVxTFcE"
+        },
+        {
+          "label": "原曲 MV：Youngso Kim",
+          "url": "https://www.youtube.com/watch?v=ukM_JPc1LNE"
+        }
+      ],
+      "source": {
+        "name": "探吉日 Tanji Day",
+        "url": "https://www.tanjidayguitar.com/"
+      },
+      "notes": "探吉日林慶義老師採譜，譜上有很詳細的左手運指。\n・特殊調弦：①=D ②=A ⑤=G ⑥=C（③④弦不變），Capo 2\n・♩ = 60，前奏是自由拍（Free time）\n・譜上有標運指的段落都是容易卡住的地方，先慢速練熟",
+      "createdAt": "2026-10-19T08:20:00.000Z",
+      "updatedAt": "2026-10-19T18:24:17.702Z"
+    },
+    {
+      "id": "river-flows-in-you",
+      "title": "River Flows in You",
+      "titleZh": "",
+      "artist": "Yiruma 이루마",
+      "arranger": "Sungha Jung",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "half-step-down",
+      "capo": 5,
+      "bpm": 67,
+      "key": "A",
+      "tags": [
+        "韓國指彈",
+        "鋼琴改編",
+        "Sungha Jung"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "capo",
+        "melody-voicing"
+      ],
+      "chords": [
+        "C#m7",
+        "Asus2",
+        "E",
+        "B7",
+        "C#m9",
+        "G#m7",
+        "F#m7",
+        "B7sus4",
+        "Eadd9"
+      ],
+      "highlights": "- 整把降半音（E♭ 標準調弦）再夾 Capo 5，譜上的和弦與 TAB 都以 Capo 為準，見 [[technique:alternate-tuning]]、[[technique:capo]]。\n- 前奏 [[chord:C#m7]] → [[chord:Asus2]] 的分解和弦要讓最高音的旋律浮出來，低音與中聲部放輕，見 [[technique:melody-voicing]]。\n- 譜上多處 rit.（漸慢）與 a tempo（回原速）；♩ = 67，先跟節拍器練穩再加入速度變化。",
+      "cover": "media/covers/river-flows-in-you.jpg",
+      "pdf": {
+        "path": "media/tabs/river-flows-in-you.pdf",
+        "pages": 9,
+        "totalPages": 9,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：Sungha Jung（2022）",
+          "url": "https://www.youtube.com/watch?v=_05OZ0Ij--Y"
+        }
+      ],
+      "source": {
+        "name": "Musicnotes",
+        "url": "https://www.musicnotes.com/"
+      },
+      "notes": "Sungha Jung 2022 年版本的編曲。\n・整把降半音（E♭ A♭ D♭ G♭ B♭ E♭），Capo 5，♩ = 67\n・前奏 C#m7 → Asus2 的分解和弦，要讓上方旋律音浮出來\n・Verse 開始旋律變密，先分手慢練再合起來",
+      "createdAt": "2026-10-19T08:30:00.000Z",
+      "updatedAt": "2026-10-19T16:27:36.163Z"
+    },
+    {
+      "id": "something-just-like-this",
+      "title": "Something Just Like This",
+      "titleZh": "",
+      "artist": "The Chainsmokers × Coldplay",
+      "arranger": "Youngso Kim（採譜：林慶義）",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "cgdgad",
+      "capo": 2,
+      "bpm": 110,
+      "key": "",
+      "tags": [
+        "韓國指彈",
+        "探吉日",
+        "西洋流行"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "percussive",
+        "palm-mute",
+        "harmonics",
+        "hammer-on",
+        "slide",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 和 [[song:like-a-star]] 一樣用 C G D G A D 調弦（譜上寫 Low C），兩首可以一起練，見 [[technique:alternate-tuning]]。\n- ♩ = 110，後段加速到 115；右手有打板與悶音，模仿鼓組的節奏感：[[technique:percussive]]、[[technique:palm-mute]]。\n- 泛音與搥弦穿插在旋律裡，泛音要輕碰琴格正上方：[[technique:harmonics]]。",
+      "cover": "media/covers/something-just-like-this.jpg",
+      "pdf": {
+        "path": "media/tabs/something-just-like-this.pdf",
+        "pages": 7,
+        "totalPages": 7,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏",
+          "url": "https://www.youtube.com/watch?v=h6icoMn8Coc&t=5s"
+        }
+      ],
+      "source": {
+        "name": "探吉日 Tanji Day",
+        "url": "https://www.tanjidayguitar.com/"
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T10:14:57.867Z",
+      "updatedAt": "2026-10-19T16:27:20.180Z"
+    },
+    {
+      "id": "first-love-easy",
+      "title": "First Love",
+      "titleZh": "初戀",
+      "artist": "宇多田ヒカル",
+      "arranger": "",
+      "difficulty": 3,
+      "status": "已學會",
+      "group": "first-love",
+      "version": "簡單版",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": 80,
+      "key": "",
+      "tags": [
+        "日本",
+        "J-Pop"
+      ],
+      "techniques": [
+        "fingerpicking",
+        "melody-voicing"
+      ],
+      "chords": [
+        "G",
+        "D/F#",
+        "Em",
+        "D",
+        "C",
+        "Bm"
+      ],
+      "highlights": "- 骨架是 [[chord:G]] → [[chord:D/F#]] → [[chord:Em]] 的下行低音，左手換和弦順了，旋律自然就出來，見 [[technique:fingerpicking]]。\n- ♩ = 80，標準調弦、不用 Capo，適合當第一首日文指彈。\n- 練熟後換到同一首的進階版，比較兩個編曲差在哪：[[song:first-love]]。",
+      "cover": "media/covers/first-love-easy.jpg",
+      "pdf": {
+        "path": "media/tabs/first-love-easy.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏",
+          "url": "https://www.youtube.com/watch?v=m3nEICCeMio"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T10:19:44.278Z",
+      "updatedAt": "2026-10-19T16:27:09.507Z"
+    },
+    {
+      "id": "grand-escape",
+      "title": "Grand Escape",
+      "titleZh": "天氣之子 插曲",
+      "artist": "RADWIMPS（野田洋次郎）",
+      "arranger": "Sungha Jung",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 2,
+      "bpm": 133,
+      "key": "",
+      "tags": [
+        "動漫",
+        "新海誠",
+        "Sungha Jung"
+      ],
+      "techniques": [
+        "hammer-on",
+        "harmonics",
+        "capo",
+        "melody-voicing"
+      ],
+      "chords": [
+        "D",
+        "G",
+        "A",
+        "Bm",
+        "Gadd9",
+        "D/F#",
+        "Em7",
+        "G6",
+        "Asus4",
+        "Bm7",
+        "Asus2"
+      ],
+      "highlights": "- 18 頁的長篇編曲，♩ = 133、Capo 2；一次只練一段（2–4 頁），每段練熟再接起來。\n- [[chord:Gadd9]]、[[chord:D/F#]]、[[chord:Em7]] 反覆出現，先把這幾個指型換到不用看。\n- 搥弦常落在拍點上當重音，搥下去要夠力才有聲音；泛音多是人工泛音（AH）：[[technique:hammer-on]]、[[technique:harmonics]]。",
+      "cover": "media/covers/grand-escape.jpg",
+      "pdf": {
+        "path": "media/tabs/grand-escape.pdf",
+        "pages": 18,
+        "totalPages": 18,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏",
+          "url": "https://www.youtube.com/watch?v=8-BeWeG3kdg"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T10:23:06.765Z",
+      "updatedAt": "2026-10-19T16:26:56.696Z"
+    },
+    {
+      "id": "first-love",
+      "title": "First Love",
+      "titleZh": "初戀",
+      "artist": "宇多田ヒカル",
+      "arranger": "",
+      "difficulty": 4,
+      "status": "想學",
+      "group": "first-love",
+      "version": "進階版",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": 86,
+      "key": "",
+      "tags": [
+        "日本",
+        "J-Pop"
+      ],
+      "techniques": [
+        "hammer-on",
+        "pull-off",
+        "slide",
+        "harmonics",
+        "melody-voicing"
+      ],
+      "chords": [],
+      "highlights": "- 一開頭就是 9–10–9 的 H、P 連音裝飾旋律，左手先穩住和弦再做連音：[[technique:hammer-on]]、[[technique:pull-off]]。\n- 第 2、6 小節有 7 格的自然泛音（譜上把格數圈起來），見 [[technique:harmonics]]。\n- 第 6 小節從 2 格滑到 7 格接下一句：[[technique:slide]]。\n- 建議先練會 [[song:first-love-easy]] 再挑戰這一版。",
+      "cover": "media/covers/first-love.jpg",
+      "pdf": {
+        "path": "media/tabs/first-love.pdf",
+        "pages": 2,
+        "totalPages": 2,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "TAB 示範影片",
+          "url": "https://www.youtube.com/watch?v=tvDPirfmnIU"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:04:29.355Z",
+      "updatedAt": "2026-10-19T16:26:42.019Z"
+    },
+    {
+      "id": "chiisana-koi-no-uta",
+      "title": "小さな恋のうた",
+      "titleZh": "小小戀歌（高木同學）",
+      "artist": "MONGOL800",
+      "arranger": "龍藏 Ryuzo",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "drop-d",
+      "capo": 2,
+      "bpm": null,
+      "key": "",
+      "tags": [
+        "動漫",
+        "日本",
+        "高木同學"
+      ],
+      "techniques": [
+        "alternating-bass",
+        "pull-off",
+        "alternate-tuning",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- Drop D 調弦（6 弦降到 D）再夾 Capo 2，見 [[technique:alternate-tuning]]。\n- 編曲者註明這首用交替低音（galloping）：括號裡的音用右手拇指彈，拇指要穩穩打出八分音符，見 [[technique:alternating-bass]]。\n- 旋律裡有不少勾弦（譜上寫 Po）：[[technique:pull-off]]。",
+      "cover": "media/covers/chiisana-koi-no-uta.jpg",
+      "pdf": {
+        "path": "media/tabs/chiisana-koi-no-uta.pdf",
+        "pages": 5,
+        "totalPages": 5,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "TAB 示範：龍藏 Ryuzo",
+          "url": "https://www.youtube.com/watch?v=VVYcBNXVO90"
+        }
+      ],
+      "source": {
+        "name": "楽譜＠ELISE",
+        "url": "https://www.at-elise.com/"
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:06:00.881Z",
+      "updatedAt": "2026-10-19T16:26:26.597Z"
+    },
+    {
+      "id": "blue",
+      "title": "blue",
+      "titleZh": "",
+      "artist": "yung kai",
+      "arranger": "Toshihiro Iwaki",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "E",
+      "tags": [
+        "西洋流行",
+        "6/8 拍"
+      ],
+      "techniques": [
+        "slide",
+        "hammer-on",
+        "melody-voicing"
+      ],
+      "chords": [],
+      "highlights": "- 6/8 拍：用「1–2–3、4–5–6」兩大拍的感覺數，不要彈成 3/4。\n- 第 3、7 小節有從 5 格滑到 10 格的長滑音，滑的過程手指要一直壓著弦：[[technique:slide]]。\n- 第 9–10 小節是雙音一起撥的和聲旋律，兩個音要一樣大聲：[[technique:melody-voicing]]。",
+      "cover": "media/covers/blue.jpg",
+      "pdf": {
+        "path": "media/tabs/blue.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "TAB 示範影片",
+          "url": "https://www.youtube.com/watch?v=qp9U-c_ubCI"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:09:48.501Z",
+      "updatedAt": "2026-10-19T16:25:58.111Z"
+    },
+    {
+      "id": "payphone",
+      "title": "Payphone",
+      "titleZh": "",
+      "artist": "Maroon 5",
+      "arranger": "Kenneth Tan",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 4,
+      "bpm": 108,
+      "key": "E",
+      "tags": [
+        "西洋流行"
+      ],
+      "techniques": [
+        "fingerpicking",
+        "capo",
+        "melody-voicing"
+      ],
+      "chords": [
+        "C",
+        "G",
+        "Em",
+        "D7"
+      ],
+      "highlights": "- Capo 4，和弦指型是 [[chord:C]]、[[chord:G]]、[[chord:Em]]、[[chord:D7]] 四個循環，聽起來是 E 大調，見 [[technique:capo]]。\n- ♩ = 108，旋律在高音弦、低音跟著和弦根音走；先把低音彈穩再加旋律：[[technique:melody-voicing]]。",
+      "cover": "media/covers/payphone.jpg",
+      "pdf": {
+        "path": "media/tabs/payphone.pdf",
+        "pages": 8,
+        "totalPages": 8,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "TAB＋和弦示範影片",
+          "url": "https://www.youtube.com/watch?v=p5JBvL4aPFU"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:11:50.607Z",
+      "updatedAt": "2026-10-19T16:25:42.803Z"
+    },
+    {
+      "id": "lost-game",
+      "title": "Lost Game",
+      "titleZh": "HELLO WORLD 片尾曲",
+      "artist": "Nulbarich",
+      "arranger": "Steve Hansen",
+      "difficulty": 4,
+      "status": "練習中",
+      "tuning": "custom",
+      "tuningNotes": [
+        "F2",
+        "A2",
+        "D3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "capo": 1,
+      "bpm": 66,
+      "key": "",
+      "tags": [
+        "動漫",
+        "日本"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "harmonics",
+        "hammer-on",
+        "capo"
+      ],
+      "chords": [
+        "Am",
+        "Fmaj7",
+        "C",
+        "G/B",
+        "F",
+        "G"
+      ],
+      "highlights": "- 6 弦要「升」半音到 F（其他弦標準），再夾 Capo 1；譜首的和弦圖都是以這個調弦為準，見 [[technique:alternate-tuning]]。\n- 全曲標 let ring throughout：音按下去就讓它一直響，左手換位置前不要提早放開。\n- 有十幾個泛音與搥弦點綴旋律：[[technique:harmonics]]、[[technique:hammer-on]]。",
+      "cover": "media/covers/lost-game.jpg",
+      "pdf": {
+        "path": "media/tabs/lost-game.pdf",
+        "pages": 5,
+        "totalPages": 5,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "Fingerstyle Cover",
+          "url": "https://www.youtube.com/watch?v=1k6eBMdA1Ok"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:15:36.955Z",
+      "updatedAt": "2026-10-19T16:25:27.884Z"
+    },
+    {
+      "id": "always-with-me-sungha-jung",
+      "title": "Always With Me",
+      "titleZh": "永遠同在（神隱少女）",
+      "artist": "木村弓",
+      "arranger": "Sungha Jung",
+      "difficulty": 4,
+      "status": "練習中",
+      "group": "always-with-me",
+      "version": "Sungha Jung 版",
+      "tuning": "standard",
+      "capo": 4,
+      "bpm": 119,
+      "key": "",
+      "tags": [
+        "吉卜力",
+        "Sungha Jung"
+      ],
+      "techniques": [
+        "melody-voicing",
+        "capo",
+        "barre-chord"
+      ],
+      "chords": [
+        "C",
+        "G",
+        "F",
+        "Em",
+        "G/B",
+        "C/E",
+        "Dm",
+        "Am",
+        "Fmaj7",
+        "Am7",
+        "Dm7"
+      ],
+      "highlights": "- Capo 4、♩ = 119；以 C 大調指型為主，常用 [[chord:G/B]]、[[chord:C/E]] 這類轉位和弦，讓低音一路級進，見 [[technique:capo]]。\n- 結尾標 let ring：按完的音讓它延續到下一個音，不要急著放手。\n- 旋律在高音、和弦在中低音；先只彈旋律哼一遍，再把伴奏放輕加回去：[[technique:melody-voicing]]。\n- 南澤大介版比較短、比較簡單，可以先練：[[song:always-with-me-minamizawa]]。",
+      "cover": "media/covers/always-with-me-sungha-jung.jpg",
+      "pdf": {
+        "path": "media/tabs/always-with-me-sungha-jung.pdf",
+        "pages": 10,
+        "totalPages": 10,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：Sungha Jung",
+          "url": "https://www.youtube.com/watch?v=EIcwEj9uzkk"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T11:16:52.455Z",
+      "updatedAt": "2026-10-19T18:23:48.689Z"
+    },
+    {
+      "id": "todokanai-koi",
+      "title": "届かない恋",
+      "titleZh": "白色相簿 2 插曲",
+      "artist": "上原れな（WHITE ALBUM2）",
+      "arranger": "VeryNize（採譜）",
+      "difficulty": 4,
+      "status": "想學",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": 128,
+      "key": "",
+      "tags": [
+        "動漫",
+        "日本",
+        "刷奏"
+      ],
+      "techniques": [
+        "strumming",
+        "percussive"
+      ],
+      "chords": [],
+      "highlights": "- ♩ = 128 的刷奏曲，譜上一整排的 X 是左手輕放在弦上悶住、右手照刷產生的切音，見 [[technique:percussive]]。\n- 右手上下擺動不能停，沒有刷到弦的空刷也要做出來，節奏才不會亂：[[technique:strumming]]。",
+      "cover": "media/covers/todokanai-koi.jpg",
+      "pdf": {
+        "path": "media/tabs/todokanai-koi.pdf",
+        "pages": 5,
+        "totalPages": 5,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏",
+          "url": "https://www.youtube.com/watch?v=M51upQJHdB4"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T16:23:33.309Z",
+      "updatedAt": "2026-10-19T16:23:33.309Z"
+    },
+    {
+      "id": "daijoubu",
+      "title": "大丈夫",
+      "titleZh": "天氣之子 主題曲",
+      "artist": "RADWIMPS（野田洋次郎）",
+      "arranger": "",
+      "difficulty": 4,
+      "status": "想學",
+      "tuning": "custom",
+      "tuningNotes": [
+        "B1",
+        "F#2",
+        "D3",
+        "F#3",
+        "B3",
+        "C#4"
+      ],
+      "capo": 1,
+      "bpm": 125,
+      "key": "",
+      "tags": [
+        "動漫",
+        "新海誠",
+        "特殊調弦"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "pull-off",
+        "hammer-on",
+        "slide",
+        "harmonics",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 調弦很特別：由 6 弦到 1 弦是 B F# D F# B C#，6 弦要鬆 5 個半音，慢慢調以免弦太鬆打到琴格，見 [[technique:alternate-tuning]]。\n- 第 1、3 小節開頭就是勾弦接三連音，♩ = 125，先用 ♩ = 90 練清楚：[[technique:pull-off]]。\n- 第 4 小節的 AH 是人工泛音：右手食指輕觸高 12 格的位置，用無名指撥弦：[[technique:harmonics]]。",
+      "cover": "media/covers/daijoubu.jpg",
+      "pdf": {
+        "path": "media/tabs/daijoubu.pdf",
+        "pages": 7,
+        "totalPages": 7,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "Fingerstyle Cover",
+          "url": "https://www.youtube.com/watch?v=Ujgd6g4-0No"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T16:31:05.972Z",
+      "updatedAt": "2026-10-19T16:31:05.972Z"
+    },
+    {
+      "id": "time-travel",
+      "title": "Time Travel",
+      "titleZh": "",
+      "artist": "岸部真明 Masaaki Kishibe",
+      "arranger": "吳勝揚（採譜）",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "cgdgad",
+      "capo": 3,
+      "bpm": 120,
+      "key": "",
+      "tags": [
+        "日本指彈",
+        "原創曲",
+        "特殊調弦"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "palm-mute",
+        "fingerpicking",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 調弦和 [[song:like-a-star]] 一樣是 C G D G A D，再夾 Capo 3，見 [[technique:alternate-tuning]]。\n- 開頭是 6、5 弦的八分音符低音加高音分解，右手掌根輕壓低音弦做出顆粒感：[[technique:palm-mute]]。\n- ♩ = 120，教學影片稱它「悶音神曲」；悶音的力道要一致，先用 ♩ = 90 慢練。",
+      "cover": "media/covers/time-travel.jpg",
+      "pdf": {
+        "path": "media/tabs/time-travel.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "教學影片：木的教室（附譜）",
+          "url": "https://www.youtube.com/watch?v=C018m0lhPbQ&t=690s"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T16:34:17.315Z",
+      "updatedAt": "2026-10-19T16:34:17.315Z"
+    },
+    {
+      "id": "inuyasha-affections",
+      "title": "時代を越える想い",
+      "titleZh": "穿越時空的思念（犬夜叉）",
+      "artist": "和田薰",
+      "arranger": "GS. Tang",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "whole-step-down",
+      "capo": 0,
+      "bpm": 60,
+      "key": "",
+      "tags": [
+        "動漫",
+        "日本"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "melody-voicing",
+        "fingerpicking"
+      ],
+      "chords": [],
+      "highlights": "- 譜上寫 tuning DAFCGD（1 弦到 6 弦），也就是整把降一個全音的 D 標準調弦，見 [[technique:alternate-tuning]]。\n- ♩ = 60 的慢歌，重點是讓旋律唱出來、伴奏放輕：[[technique:melody-voicing]]。",
+      "cover": "media/covers/inuyasha-affections.jpg",
+      "pdf": {
+        "path": "media/tabs/inuyasha-affections.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "吉他獨奏",
+          "url": "https://www.youtube.com/watch?v=GWXfv-Qh__Y"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T16:37:20.841Z",
+      "updatedAt": "2026-10-19T16:37:20.841Z"
+    },
+    {
+      "id": "violet-evergarden-medley",
+      "title": "Violet Evergarden Medley",
+      "titleZh": "紫羅蘭永恆花園組曲",
+      "artist": "茅原実里、Evan Call",
+      "arranger": "Tam Lu Music",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "custom",
+      "tuningNotes": [
+        "B1",
+        "G2",
+        "D3",
+        "F#3",
+        "A3",
+        "D4"
+      ],
+      "capo": 3,
+      "bpm": 70,
+      "key": "",
+      "tags": [
+        "動漫",
+        "組曲"
+      ],
+      "techniques": [
+        "alternate-tuning",
+        "harmonics",
+        "hammer-on",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 調弦由 6 弦到 1 弦是 B G D F# A D，Capo 3；第 53 小節要把 6 弦從 B 調回 D，彈到那裡前先停下來調，見 [[technique:alternate-tuning]]。\n- 第一段〈道標〉標 let ring throughout：每個音都讓它響著，左手不要提早放開。\n- 中段大量泛音（多數是人工泛音 AH）與搥弦，泛音要輕碰、聲音要亮：[[technique:harmonics]]、[[technique:hammer-on]]。\n- ♩ = 70，後段加速到 76。",
+      "cover": "media/covers/violet-evergarden-medley.jpg",
+      "pdf": {
+        "path": "media/tabs/violet-evergarden-medley.pdf",
+        "pages": 9,
+        "totalPages": 9,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "原聲帶組曲",
+          "url": "https://www.youtube.com/watch?v=jaiy8NOrGak"
+        }
+      ],
+      "source": {
+        "name": "",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T16:40:03.652Z",
+      "updatedAt": "2026-10-19T16:40:03.652Z"
+    },
+    {
+      "id": "merry-go-round-of-life",
+      "title": "人生のメリーゴーランド",
+      "titleZh": "人生的旋轉木馬（霍爾的移動城堡）",
+      "artist": "久石讓",
+      "arranger": "南澤大介",
+      "difficulty": 3,
+      "status": "已學會",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "",
+      "tags": [
+        "吉卜力",
+        "久石讓"
+      ],
+      "techniques": [
+        "strumming",
+        "melody-voicing",
+        "barre-chord",
+        "hammer-on",
+        "pull-off"
+      ],
+      "chords": [],
+      "highlights": "- 書裡難度標 B（中等）。前奏到 A 段放慢，把旋律一個音一個音唱出來；D 段前半八小節收小聲。\n- 有一段用右手食指輕刷和弦，刷到的最高音就是旋律，不用另外撥：[[technique:strumming]]、[[technique:melody-voicing]]。\n- 有一句要用食指封閉 2 格、封住不放直接做搥弦接勾弦：[[technique:barre-chord]]、[[technique:hammer-on]]。",
+      "cover": "media/covers/merry-go-round-of-life.jpg",
+      "pdf": {
+        "path": "media/tabs/merry-go-round-of-life.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：南澤大介",
+          "url": "https://www.youtube.com/watch?v=30M8hevIGGs"
+        }
+      ],
+      "source": {
+        "name": "南澤大介《ソロ・ギターのしらべ スタジオジブリ作品集》",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:02:02.803Z",
+      "updatedAt": "2026-10-19T18:17:02.065Z"
+    },
+    {
+      "id": "always-with-me-minamizawa",
+      "title": "Always With Me",
+      "titleZh": "永遠同在（神隱少女）",
+      "artist": "木村弓",
+      "arranger": "南澤大介",
+      "difficulty": 3,
+      "status": "練習中",
+      "group": "always-with-me",
+      "version": "南澤大介版",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "",
+      "tags": [
+        "吉卜力"
+      ],
+      "techniques": [
+        "barre-chord",
+        "slide",
+        "hammer-on",
+        "melody-voicing"
+      ],
+      "chords": [],
+      "highlights": "- 書裡難度標 A（最容易），運指沒有特別難的地方，重點是旋律要連貫、不要斷。\n- 開頭不用封閉，6 弦 1 格用食指指尖按；到第 3 拍才把食指放倒封閉 1 格：[[technique:barre-chord]]。\n- 有一句是小指從 1 弦 3 格滑到 5 格：[[technique:slide]]；另一處的 F 不封閉，改用食指在 2 弦 1 格搥弦：[[technique:hammer-on]]。",
+      "cover": "media/covers/always-with-me-minamizawa.jpg",
+      "pdf": {
+        "path": "media/tabs/always-with-me-minamizawa.pdf",
+        "pages": 2,
+        "totalPages": 2,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：南澤大介",
+          "url": "https://www.youtube.com/watch?v=jtAFWUDc_zw"
+        }
+      ],
+      "source": {
+        "name": "南澤大介《ソロ・ギターのしらべ スタジオジブリ作品集》",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:07:41.476Z",
+      "updatedAt": "2026-10-19T18:07:41.476Z"
+    },
+    {
+      "id": "umi-no-mieru-machi",
+      "title": "海の見える街",
+      "titleZh": "看得見海的街道（魔女宅急便）",
+      "artist": "久石讓",
+      "arranger": "南澤大介",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 5,
+      "bpm": null,
+      "key": "",
+      "tags": [
+        "吉卜力",
+        "久石讓"
+      ],
+      "techniques": [
+        "hammer-on",
+        "pull-off",
+        "barre-chord",
+        "capo"
+      ],
+      "chords": [],
+      "highlights": "- 書裡難度標 B。編曲參考同旋律的歌曲〈めぐる季節〉，為了好按改夾 Capo 5：[[technique:capo]]。\n- 有一處 Am 用封閉按法，再以 2 弦 8 格的小指當軸心轉到 Bm 指型：[[technique:barre-chord]]。\n- 大量搥勾弦的樂句太難時，可以先改彈低把位和弦的八分音符分解：[[technique:hammer-on]]、[[technique:pull-off]]。",
+      "cover": "media/covers/umi-no-mieru-machi.jpg",
+      "pdf": {
+        "path": "media/tabs/umi-no-mieru-machi.pdf",
+        "pages": 2,
+        "totalPages": 2,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "參考演奏：南澤大介",
+          "url": "https://www.youtube.com/watch?v=xq9qTRVjVZ4"
+        }
+      ],
+      "source": {
+        "name": "南澤大介《ソロ・ギターのしらべ スタジオジブリ作品集》",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:14:17.138Z",
+      "updatedAt": "2026-10-19T18:14:17.138Z"
+    },
+    {
+      "id": "chixin-juedui",
+      "title": "痴心絕對",
+      "titleZh": "",
+      "artist": "李聖傑",
+      "arranger": "董運昌",
+      "difficulty": 3,
+      "status": "已學會",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "G",
+      "tags": [
+        "華語",
+        "董運昌"
+      ],
+      "techniques": [
+        "hammer-on",
+        "melody-voicing",
+        "fingerpicking"
+      ],
+      "chords": [
+        "Gadd9",
+        "Em",
+        "Cmaj7",
+        "Bm7",
+        "Am7",
+        "D7sus4",
+        "G"
+      ],
+      "highlights": "- 前奏 [[chord:Gadd9]] 接 Em(9) 的分解，第 2、4 小節用 0–2 的搥弦點綴旋律：[[technique:hammer-on]]。\n- 旋律在高音、低音守住根音；主歌的 [[chord:Cmaj7]]、[[chord:Bm7]]、[[chord:Am7]] 要按穩，旋律才不會斷：[[technique:melody-voicing]]。",
+      "cover": "media/covers/chixin-juedui.jpg",
+      "pdf": {
+        "path": "media/tabs/chixin-juedui.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "改編演奏：董運昌",
+          "url": "https://www.youtube.com/watch?v=HBmGeLGBqKQ"
+        }
+      ],
+      "source": {
+        "name": "董運昌指彈譜",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:16:29.498Z",
+      "updatedAt": "2026-10-19T18:16:52.876Z"
+    },
+    {
+      "id": "tonghua",
+      "title": "童話",
+      "titleZh": "",
+      "artist": "光良",
+      "arranger": "董運昌",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "C",
+      "tags": [
+        "華語",
+        "董運昌"
+      ],
+      "techniques": [
+        "melody-voicing",
+        "fingerpicking"
+      ],
+      "chords": [
+        "C",
+        "C/B",
+        "Am7",
+        "F",
+        "G7",
+        "Dm7",
+        "E7",
+        "Gsus4"
+      ],
+      "highlights": "- 前奏低音 C → B → A → G 一路下行（[[chord:C]]、C/B、[[chord:Am7]]、Am7/G），右手拇指把這條下行低音彈清楚，情緒就出來了。\n- 很多和弦裡同時藏著旋律音，按和弦時最高音那根手指要壓最穩：[[technique:melody-voicing]]。",
+      "cover": "media/covers/tonghua.jpg",
+      "pdf": {
+        "path": "media/tabs/tonghua.pdf",
+        "pages": 3,
+        "totalPages": 3,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "改編演奏：董運昌",
+          "url": "https://www.youtube.com/watch?v=_zatINveCZc"
+        }
+      ],
+      "source": {
+        "name": "董運昌指彈譜",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:18:36.643Z",
+      "updatedAt": "2026-10-19T18:18:36.643Z"
+    },
+    {
+      "id": "yujian",
+      "title": "遇見",
+      "titleZh": "",
+      "artist": "孫燕姿",
+      "arranger": "董運昌",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "C",
+      "tags": [
+        "華語",
+        "董運昌"
+      ],
+      "techniques": [
+        "melody-voicing",
+        "fingerpicking",
+        "hammer-on"
+      ],
+      "chords": [
+        "C",
+        "G/B",
+        "Am7",
+        "F",
+        "C/E",
+        "Dm7",
+        "G7"
+      ],
+      "highlights": "- 主歌 [[chord:C]] → [[chord:G/B]] → [[chord:Am7]] → [[chord:F]] → [[chord:C/E]] 是經典的低音下行，和 [[song:tonghua]] 的開頭很像，可以一起練。\n- 旋律常落在 1、2 弦的 1–3 格，左手按和弦時要留一根手指去彈旋律：[[technique:melody-voicing]]。",
+      "cover": "media/covers/yujian.jpg",
+      "pdf": {
+        "path": "media/tabs/yujian.pdf",
+        "pages": 4,
+        "totalPages": 4,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "改編演奏：董運昌",
+          "url": "https://www.youtube.com/watch?v=RB4JWWVr0eY"
+        }
+      ],
+      "source": {
+        "name": "董運昌指彈譜",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:20:08.644Z",
+      "updatedAt": "2026-10-19T18:20:08.644Z"
+    },
+    {
+      "id": "gudan-beibanqiu",
+      "title": "孤單北半球",
+      "titleZh": "",
+      "artist": "林依晨",
+      "arranger": "董運昌",
+      "difficulty": 3,
+      "status": "練習中",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "A",
+      "tags": [
+        "華語",
+        "董運昌"
+      ],
+      "techniques": [
+        "hammer-on",
+        "slide",
+        "melody-voicing"
+      ],
+      "chords": [
+        "Amaj7",
+        "Bbdim",
+        "Bm7",
+        "E",
+        "E9",
+        "A",
+        "D",
+        "F#m"
+      ],
+      "highlights": "- A 大調，前奏 [[chord:Amaj7]] → [[chord:Bbdim]] → [[chord:Bm7]] → [[chord:E]]：用減和弦把低音半音往上推，換和弦時低音要連起來。\n- 前奏就有搥弦（H）和滑音，先單獨練左手連音再加伴奏：[[technique:hammer-on]]、[[technique:slide]]。",
+      "cover": "media/covers/gudan-beibanqiu.jpg",
+      "pdf": {
+        "path": "media/tabs/gudan-beibanqiu.pdf",
+        "pages": 4,
+        "totalPages": 4,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "改編演奏：董運昌",
+          "url": "https://www.youtube.com/watch?v=Z46zJgsyuQU"
+        }
+      ],
+      "source": {
+        "name": "董運昌指彈譜",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:21:44.056Z",
+      "updatedAt": "2026-10-19T18:22:07.640Z"
+    },
+    {
+      "id": "my-heart-will-go-on",
+      "title": "My Heart Will Go On",
+      "titleZh": "我心永恆（鐵達尼號）",
+      "artist": "Céline Dion",
+      "arranger": "董運昌",
+      "difficulty": 4,
+      "status": "想學",
+      "tuning": "standard",
+      "capo": 0,
+      "bpm": null,
+      "key": "E",
+      "tags": [
+        "電影配樂",
+        "西洋流行",
+        "董運昌"
+      ],
+      "techniques": [
+        "hammer-on",
+        "pull-off",
+        "melody-voicing"
+      ],
+      "chords": [
+        "E",
+        "A",
+        "B7",
+        "Aadd9",
+        "Emaj7"
+      ],
+      "highlights": "- E 大調，前奏用 5–7 格的 H、P 連音模仿錫口哨的裝飾音，連音要輕快：[[technique:hammer-on]]、[[technique:pull-off]]。\n- 主要進行是 [[chord:A]] → [[chord:B7]] → [[chord:E]]，從 B7 換到 E 時低音要接好、不要空掉。",
+      "cover": "media/covers/my-heart-will-go-on.jpg",
+      "pdf": {
+        "path": "media/tabs/my-heart-will-go-on.pdf",
+        "pages": 4,
+        "totalPages": 4,
+        "preview": false
+      },
+      "videos": [
+        {
+          "label": "改編演奏：董運昌",
+          "url": "https://www.youtube.com/watch?v=1d1lyJ6pECo"
+        }
+      ],
+      "source": {
+        "name": "董運昌指彈譜",
+        "url": ""
+      },
+      "notes": "",
+      "createdAt": "2026-10-19T18:23:31.588Z",
+      "updatedAt": "2026-10-19T18:23:31.588Z"
+    }
+  ]
+}

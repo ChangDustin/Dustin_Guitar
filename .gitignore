@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+playwright-report/
+# 測試時自動產生的假麥克風音檔
+tests/fixtures/
+# 只留在自己電腦：管理密碼備忘、繳交草稿
+_local/

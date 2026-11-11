@@ -1,0 +1,52 @@
+{
+  "playlists": [
+    {
+      "id": "ghibli-and-hisaishi",
+      "title": "吉卜力與久石讓",
+      "description": "宮崎駿電影與久石讓的旋律，大多是南澤大介的編曲，旋律清楚、很適合拿來練習讓旋律唱出來。",
+      "cover": "",
+      "songIds": ["summer", "merry-go-round-of-life", "always-with-me-minamizawa", "umi-no-mieru-machi", "always-with-me-sungha-jung"],
+      "featured": true
+    },
+    {
+      "id": "anime-and-film",
+      "title": "動漫與電影配樂",
+      "description": "新海誠、犬夜叉、紫羅蘭永恆花園……看過的作品配上自己彈的版本，練起來特別有動力。",
+      "cover": "",
+      "songIds": ["chiisana-koi-no-uta", "inuyasha-affections", "violet-evergarden-medley", "todokanai-koi", "grand-escape", "daijoubu", "lost-game", "my-heart-will-go-on"],
+      "featured": true
+    },
+    {
+      "id": "korean-fingerstyle",
+      "title": "韓國指彈：Sungha Jung 與金永所",
+      "description": "兩位韓國指彈吉他手的編曲：Sungha Jung 的流暢、金永所的特殊調弦與泛音。",
+      "cover": "",
+      "songIds": ["river-flows-in-you", "like-a-star", "something-just-like-this", "grand-escape", "always-with-me-sungha-jung"],
+      "featured": true
+    },
+    {
+      "id": "mandopop-by-dong-yun-chang",
+      "title": "董運昌改編華語歌",
+      "description": "董運昌把華語流行歌改編成獨奏，和弦進行經典、低音線條漂亮，是練分解和弦的好教材。",
+      "cover": "",
+      "songIds": ["chixin-juedui", "tonghua", "yujian", "gudan-beibanqiu"],
+      "featured": true
+    },
+    {
+      "id": "alternate-tunings",
+      "title": "特殊調弦挑戰",
+      "description": "要先把弦調成別的音才能彈的歌。每首歌頁面都有「用這個調弦開調音器」的按鈕。",
+      "cover": "",
+      "songIds": ["like-a-star", "something-just-like-this", "time-travel", "chiisana-koi-no-uta", "lost-game", "daijoubu", "violet-evergarden-medley", "inuyasha-affections"],
+      "featured": false
+    },
+    {
+      "id": "western-pop",
+      "title": "西洋流行",
+      "description": "Maroon 5、Coldplay、Céline Dion：耳熟能詳的西洋流行歌指彈版。",
+      "cover": "",
+      "songIds": ["payphone", "something-just-like-this", "blue", "my-heart-will-go-on"],
+      "featured": false
+    }
+  ]
+}
