@@ -31,4 +31,5 @@
 npm install      # 只有跑測試需要（Playwright）
 npm run dev      # 本機預覽 http://localhost:8790
 npm run verify   # 重建目錄 → 檢查內容 → 跑全部測試
+npm run live-check   # 驗收線上版（GitHub Pages 部署完成後）
 ```

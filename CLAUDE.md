@@ -63,7 +63,7 @@ media/
   videos/                  上傳的影片檔（盡量改用 YouTube）
   photos/                  站長照片、器材照、歷程照片
   notes/                   上課筆記與文章插圖
-scripts/                   Node 工具（不需安裝任何套件）：serve、build-index、check-content、new-content
+scripts/                   Node 工具（不需安裝任何套件）：serve、build-index、check-content、new-content；live-check（驗收線上版，要先 npm install）
 templates/                 新內容的樣板（歌曲、技巧、文章、歌單、頁面）
 tests/                     Playwright 自動化測試；helpers.js 提供假的 YouTube、假管理密碼、假 GitHub API
 playwright.config.js       測試設定（桌機 1280px＋手機 390px，用電腦已安裝的 Chrome）
@@ -311,7 +311,7 @@ date: 2026-11-11
 5. 更新 `NOTES.md`：今天做了什麼、遇到什麼問題、下次從哪開始。
 6. 若這次被站長糾正，把新規則寫進本手冊並在〈手冊更新紀錄〉加一行。
 7. commit 訊息用中文，第一行 50 字內：`新增：…`、`修正：…`、`內容：…`、`手冊：…`。
-8. 推上 GitHub 之後（要站長同意才推），Actions 的「內容檢查」必須是綠的。
+8. 推上 GitHub 之後（要站長同意才推），Actions 的「內容檢查」必須是綠的；等「pages build and deployment」也跑完，再跑 `npm run live-check`，線上版必須 **0 個問題**。GitHub Pages 的網址分大小寫，Windows 本機不分，檔名大小寫寫錯只有線上驗收抓得到。
 
 ### 7.1 測試怎麼寫
 
@@ -335,6 +335,7 @@ npm run index          # 由 Markdown 產生 content/index.json
 npm run check          # 檢查所有內容與連結
 npm test               # Playwright 自動化測試
 npm run verify         # index → check → test 一次跑完
+npm run live-check     # 驗收線上版（推上去、Pages 部署完成後）
 ```
 
 ---
@@ -346,3 +347,4 @@ npm run verify         # index → check → test 一次跑完
 | 2026-11-11 | v1 | 第一版：由 AI 訪談站長 4 輪後起草 | 讓 AI 照同一套方式新增歌曲、技巧、文章與頁面 |
 | 2026-11-11 | v2 | 依完成的網站校正：資料夾地圖、和弦圖只畫在標準／降半音／降全音、刪掉沒用到的歌曲 `featured`、示範模式、色碼自動檢查、外部函式庫一律經 `cdn.js` 載入並自動重試、開工前 `git pull`、GitHub Actions、7.1 測試寫法 | 手冊要和程式一致，AI 才不會照著錯的說明做事 |
 | 2026-11-11 | v2.1 | 加入 `.nojekyll` 與第 6 節第 10 條 | 第一次部署前發現 GitHub Pages 預設的 Jekyll 會吃掉 `.md` 檔 |
+| 2026-11-11 | v2.2 | 加入 `npm run live-check`，驗收清單第 8 條要求推上去後驗收線上版 | 本機檢查抓不到線上才有的問題（網址大小寫、Pages 設定）；第一次上線就是用它驗收的 |

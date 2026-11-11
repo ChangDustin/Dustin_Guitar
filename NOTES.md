@@ -6,7 +6,7 @@
 ## 下次從這裡開始
 
 - [x] 建立 `Dustin_Guitar` repo 並推上去（2026-11-11）。
-- [ ] 站長：開 Pages（Settings → Pages → `main`／`/ (root)`），然後驗收線上版。
+- [x] 開 Pages 並驗收線上版（2026-11-11，`npm run live-check`）。
 - [ ] 站長：Firebase 主控台 → Firestore → 規則，把 `firestore.rules` 整份貼上並發布；再到管理模式「設定」貼上 Firebase 網頁設定。
 - [ ] 站長：建立只限 `Dustin_Guitar` 的 fine-grained token（Contents：Read and write），在管理模式「設定」填入。
 - [ ] 站長：在管理模式填品牌資料（照片、自我介紹、學琴歷程、器材、社群）。**AI 不要代填。**
@@ -19,6 +19,19 @@
 - 和弦字典的封閉和弦是程式依 E 型、A 型推出來的；`chords.json` 沒收錄、程式也推不出來的和弦會顯示「尚未收錄」（`npm run check` 會警告）。
 
 ## 紀錄
+
+### 2026-11-11　上線
+
+做了什麼：
+
+- 站長開了 GitHub Pages（Deploy from a branch：`main`／`/ (root)`），網站上線：<https://changdustin.github.io/Dustin_Guitar/>。
+- 新增 `npm run live-check`（`scripts/live-check.mjs`）驗收線上版：149 個檔案都拿得到，桌機 57 頁、手機 11 頁沒有錯誤。寫進 CLAUDE.md 驗收清單第 8 條。
+
+遇到的問題與解法（下次別再踩）：
+
+- Pages 設定改完一定要按 **Save**。存好後 Actions 會出現「pages build and deployment」，它跑完網站才會從 404 變成 200。
+- 沒登入時，GitHub API 的 `repos/ChangDustin/Dustin_Guitar/pages` 一律回 404，不能用來判斷 Pages 有沒有開；要看 `actions/runs` 有沒有「pages build and deployment」。
+- 驗收腳本第一次報了 2 筆 `net::ERR_ABORTED`：那是換頁時 `pdf-viewer.js` 取消還沒下載完的樂譜（本來就該這樣），現在腳本會忽略這種錯誤。
 
 ### 2026-11-11　v1 完成
 
