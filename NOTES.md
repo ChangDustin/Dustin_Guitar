@@ -5,7 +5,8 @@
 
 ## 下次從這裡開始
 
-- [ ] 站長：在 GitHub 建立 `Dustin_Guitar` repo，推上去後開 Pages（Settings → Pages → `main`／`/ (root)`）。
+- [x] 建立 `Dustin_Guitar` repo 並推上去（2026-11-11）。
+- [ ] 站長：開 Pages（Settings → Pages → `main`／`/ (root)`），然後驗收線上版。
 - [ ] 站長：Firebase 主控台 → Firestore → 規則，把 `firestore.rules` 整份貼上並發布；再到管理模式「設定」貼上 Firebase 網頁設定。
 - [ ] 站長：建立只限 `Dustin_Guitar` 的 fine-grained token（Contents：Read and write），在管理模式「設定」填入。
 - [ ] 站長：在管理模式填品牌資料（照片、自我介紹、學琴歷程、器材、社群）。**AI 不要代填。**
@@ -30,6 +31,7 @@
 
 遇到的問題與解法（下次別再踩）：
 
+- GitHub Pages「從分支部署」預設會跑 Jekyll，把所有 `.md` 轉成 `.html`，網站就讀不到技巧與文章。根目錄放了空的 `.nojekyll` 關掉它，`npm run check` 會檢查它還在。
 - 本機預覽用 `http://localhost:8790`，不要用 `127.0.0.1`：YouTube 嵌入在 `127.0.0.1` 會顯示錯誤。
 - `.chip` 之類有設 `display` 的元件會蓋掉 HTML 的 `hidden`，所以 `base.css` 有全域 `[hidden] { display: none !important }`，不要刪。
 - 正規表示式裡的中文範圍用 `\p{Script=Han}`、組合字元用 `\p{M}`（要加 `u` 旗標），不要寫跳脫碼範圍：有些 AI 編輯工具會把跳脫碼直接變成字元，程式就壞了。

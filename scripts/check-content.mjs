@@ -26,6 +26,7 @@ for (const f of (await readdir(abs('assets/css'))).filter(f => f.endsWith('.css'
 // 手冊本身也要在
 if (!exists('CLAUDE.md')) errors.push('CLAUDE.md：找不到專案手冊');
 if (!exists('AGENTS.md')) warnings.push('AGENTS.md：找不到（其他 AI 工具會讀不到規則）');
+if (!exists('.nojekyll')) errors.push('.nojekyll：找不到（GitHub Pages 會把 Markdown 轉成 HTML，技巧與文章頁就讀不到 .md）');
 
 const songs = all.songs.songs.length;
 const docs = all.docs.length;

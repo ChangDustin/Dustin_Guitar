@@ -72,6 +72,7 @@ firestore.rules            Firebase 安全規則（學員只能讀寫自己的�
 CLAUDE.md                  本手冊（AGENTS.md 只是指向本檔）
 NOTES.md                   工作日誌：做到哪、下次從哪開始
 README.md                  給人看的專案簡介
+.nojekyll                  空檔案，關掉 GitHub Pages 的 Jekyll（不然 .md 會被轉成 .html，網站讀不到）
 ```
 
 ---
@@ -293,6 +294,7 @@ date: 2026-11-11
 7. 不要引入框架、打包工具或沒列在 4.4 的 CDN 函式庫；要加新的先問站長。
 8. 不要 `git push --force`、不要改寫 git 歷史；不要直接推到 GitHub，除非站長說可以。
 9. 樂譜由站長決定公開範圍：保持 `songs.json` 裡 `pdf` 的設定，不要自行裁切或替換站長上傳的檔案。
+10. **不要刪除根目錄的 `.nojekyll`**：少了它，GitHub Pages 會用 Jekyll 把所有 `.md` 轉成 `.html`，技巧與文章頁全部讀不到（`npm run check` 會擋）。
 
 ---
 
@@ -343,3 +345,4 @@ npm run verify         # index → check → test 一次跑完
 |---|---|---|---|
 | 2026-11-11 | v1 | 第一版：由 AI 訪談站長 4 輪後起草 | 讓 AI 照同一套方式新增歌曲、技巧、文章與頁面 |
 | 2026-11-11 | v2 | 依完成的網站校正：資料夾地圖、和弦圖只畫在標準／降半音／降全音、刪掉沒用到的歌曲 `featured`、示範模式、色碼自動檢查、外部函式庫一律經 `cdn.js` 載入並自動重試、開工前 `git pull`、GitHub Actions、7.1 測試寫法 | 手冊要和程式一致，AI 才不會照著錯的說明做事 |
+| 2026-11-11 | v2.1 | 加入 `.nojekyll` 與第 6 節第 10 條 | 第一次部署前發現 GitHub Pages 預設的 Jekyll 會吃掉 `.md` 檔 |
