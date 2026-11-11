@@ -39,7 +39,9 @@ async function crawl(label, opts, routes, extra) {
   const problems = [];
   let where = '';
   page.on('pageerror', e => problems.push(`${where} JS 錯誤：${e.message}`));
-  page.on('console', m => { if (m.type() === 'error') problems.push(`${where} console：${m.text().slice(0, 200)}`); });
+  // YouTube 播放器偶爾會在自己的 iframe 裡印錯誤（例如 Permissions policy violation: compute-pressure），不是網站的錯
+  const fromYouTube = m => /youtube(-nocookie)?\.com|ytimg\.com/.test(m.location().url) || m.text().includes('Permissions policy violation');
+  page.on('console', m => { if (m.type() === 'error' && !fromYouTube(m)) problems.push(`${where} console：${m.text().slice(0, 200)}`); });
   page.on('response', r => { if (r.status() >= 400) problems.push(`${where} HTTP ${r.status()}：${r.url()}`); });
   // 換頁時網站會取消還沒下載完的樂譜（net::ERR_ABORTED），那不是錯誤
   page.on('requestfailed', r => { const e = (r.failure() || {}).errorText || ''; if (!e.includes('ERR_ABORTED')) problems.push(`${where} 請求失敗：${r.url().slice(0, 120)} ${e}`); });

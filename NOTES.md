@@ -32,6 +32,7 @@
 - Pages 設定改完一定要按 **Save**。存好後 Actions 會出現「pages build and deployment」，它跑完網站才會從 404 變成 200。
 - 沒登入時，GitHub API 的 `repos/ChangDustin/Dustin_Guitar/pages` 一律回 404，不能用來判斷 Pages 有沒有開；要看 `actions/runs` 有沒有「pages build and deployment」。
 - 驗收腳本第一次報了 2 筆 `net::ERR_ABORTED`：那是換頁時 `pdf-viewer.js` 取消還沒下載完的樂譜（本來就該這樣），現在腳本會忽略這種錯誤。
+- YouTube 播放器偶爾會在它自己的 iframe 裡印出 `Permissions policy violation: compute-pressure is not allowed`，重跑常常就沒了。網站程式沒用到這個功能，GitHub Pages 也沒送 `Permissions-Policy` 標頭，所以這是 YouTube 自己的訊息，腳本也會忽略。
 
 ### 2026-11-11　v1 完成
 
